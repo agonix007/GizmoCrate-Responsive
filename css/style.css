@@ -66,6 +66,19 @@
   color: #e6ecf0;
 }
 
+@media (max-width: 600px) {
+  .section-hero {
+    border: 20px dashed maroon;
+    background-color: orangered;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-hero {
+    background-color: green;
+  }
+}
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -602,7 +615,7 @@
   border-top: 1px solid #eee;
 }
 
-.grid--footer{
+.grid--footer {
   grid-template-columns: 1.6fr 1.5fr 1fr 1fr 1fr;
 }
 
@@ -646,7 +659,7 @@
   line-height: 1.6;
 }
 
-.address{
+.address {
   margin-bottom: 2.4rem;
 }
 
