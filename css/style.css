@@ -383,6 +383,10 @@
   transform: scale(1.1);
 }
 
+.special-img{
+  display: none;
+}
+
 /***************************/
 /* PRICING SECTION */
 /***************************/
