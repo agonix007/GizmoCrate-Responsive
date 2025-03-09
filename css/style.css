@@ -66,19 +66,6 @@
   color: #e6ecf0;
 }
 
-@media (max-width: 600px) {
-  .section-hero {
-    border: 20px dashed maroon;
-    background-color: orangered;
-  }
-}
-
-@media (max-width: 1200px) {
-  .section-hero {
-    background-color: green;
-  }
-}
-
 .hero {
   max-width: 130rem;
   margin: 0 auto;
